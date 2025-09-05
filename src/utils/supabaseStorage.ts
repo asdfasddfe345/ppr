@@ -1,5 +1,5 @@
 import { supabase } from '../lib/supabase';
-import { Question, AccessLog, PaymentSettings, Material } from '../types';
+import { Question, AccessLog, PaymentSettings, Material, Company, Job, Webinar, WebinarRegistration, BlogCategory, BlogTag, Blog, Service, ServiceInquiry, Subscriber } from '../types';
 
 export const supabaseStorage = {
   // Questions
